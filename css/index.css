@@ -1,0 +1,89 @@
+/*common*/
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 40px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+ul,ol {
+    list-style-type: none;
+}
+
+/*header*/
+header {
+    background-color: #000;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+/*main - menu*/
+.menu_list {
+    display: flex;
+    gap: 14px;
+    width: 1000px;
+    margin-bottom: 40px;
+}
+.menu_list li {
+    border: 1px solid #d1d1d1;
+    text-align: center;
+    flex-grow: 1;
+    height: 33px;
+    box-sizing: border-box;
+    padding: 5px 0;
+}
+.menu_list li:hover {
+    border: 1px solid #454545;
+    font-weight: bold;
+}
+.menu_list li a {
+    color: #000;
+    display: block;
+}
+
+/*main - Elements*/
+h2 {
+    font-size: 1.25rem;
+    color: #000;
+    padding: 20px 0;
+    border-bottom: 1px solid #454545;
+}
+.element_wrap {
+    width: 100%;
+    border: 1px solid #d1d1d1;
+    margin: 30px 0;
+}
+.element_wrap .element_tit {
+    padding: 15px;
+    border-bottom: 1px solid #d1d1d1;
+    background-color: #f7f7f7;
+    color: #333;
+    font-weight: bold;
+}
+.element_wrap .element_contents {
+    padding: 30px;
+    font-size: 0.75rem;
+}
+
+/*footer*/
+footer {
+    border-top: 1px solid #d1d1d1;
+    text-align: center;
+}
+footer address {
+    font-size: 0.75rem;
+    color: #999;
+    font-style: normal;
+}
+footer p {
+    font-size: 0.75rem;
+    margin-top: 10px;
+}
