@@ -350,10 +350,10 @@ template {
 }
 
 /*custom*/
-* {
+*,*::before, *::after {
   margin: 0;
   padding: 0;
-  max-width: calc(100%-30px);
+  box-sizing: border-box;
 }
 a {
   text-decoration: none;
