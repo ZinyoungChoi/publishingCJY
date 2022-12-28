@@ -121,7 +121,7 @@ table{
 }
 
 /*form*/
-form {
+.sec2 form {
     border: 1px solid #e4e4e4;
     background-color: #fbfbfb;
     padding: 20px;
@@ -132,7 +132,7 @@ h5 {
     display: block;
     margin-top: 10px;
 }
-input, select, textarea {
+.sec2 input,.sec2 select,.sec2 textarea {
     border: 1px solid #e4e4e4;
     padding: 0 10px;
     margin: 10px 0;
@@ -143,10 +143,10 @@ input, select, textarea {
     justify-content: space-between;
 
 }
-select {
+.sec2 select {
     width: 32%;
 }
-button {
+.sec2 button {
     background-color: #4ec53d;
     border: 1px solid #08a600;
     font-size: 1rem;
@@ -157,7 +157,7 @@ button {
 .first_input {
     margin: 0;
 }
-input,textarea {
+.sec2 input,.sec2 textarea {
     width: 100%;
 }
 .call_box {
@@ -181,11 +181,149 @@ input,textarea {
 .radiocheck_box label {
     margin-right: 7%;
 }
-textarea {
+.sec2 textarea {
     height: 150px;
 }
 
 /*list_element*/
+.sec3 h4 {
+    margin-top: 40px;
+}
+.sec3 h4:nth-child(1) {
+    margin-top: 0;
+}
+.sec3 article {
+    border: 1px solid #e4e4e4;
+    padding: 20px;
+}
+.sec3 .dictionary {
+    padding: 40px 20px;
+}
+.dictionary p {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: -1.5px;
+}
+.dictionary dl {
+    margin: 20px 0;
+    letter-spacing: -0.8px;
+}
+.dictionary dt {
+    font-weight: bold;
+    margin: 8px 0;
+    font-size: 0.875rem;
+}
+.dictionary dt span {
+    font-size: 0.75rem;
+    font-weight: normal;
+    color: #559bfa;
+    display: inline-block;
+    margin: 0 5px;
+}
+.dictionary dd {
+    line-height: 1.7;
+}
+.searching_list ol li {
+    margin-top: 5px;
+    line-height: 1.7;
+    font-size: 0.75rem;
+}
+.searching_list ol li:nth-child(1) {
+    margin-top: 0;
+}
+.searching_list ol li span {
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    line-height: 13px;
+    font-size: 0.625rem;
+    margin-right: 6px;
+}
+.searching_list ol li a:hover {
+    text-decoration: underline;
+}
+
+.cookie ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.cookie li {
+    margin-top: 8px;
+    line-height: 1.7;
+}
+.cookie li:nth-child(1) {
+    margin-top: 0;
+    font-weight: bold;
+}
+.blue {
+    color: #559bfa;
+}
+.red {
+    color: #ec5336;
+}
+.cookie li a {
+    color: #559bfa;
+    text-decoration: underline;
+}
+.sec3 .news {
+    padding: 0 20px;
+}
+.news .border {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.news div {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.news img {
+    margin-right: 10px;
+}
+.news ul li {
+    line-height: 1.5;
+    letter-spacing: -0.6px;
+}
+.news ul li:nth-child(1) a {
+    font-size: 0.875rem;
+    color: #00c;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.webtoon ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.webtoon h5 {
+    margin: 5px 0;
+}
+.webtoon a:hover h5 {
+    text-decoration: underline;
+}
+.webtoon h5 span {
+    font-size: 0.625rem;
+    color: #fff;
+    display: inline-block;
+    box-sizing: content-box;
+    padding: 1px 2px;
+    margin-right: 3px;
+}
+.cut_toon {
+    border: 1px solid #71b036;
+    background-color: #80c83d;
+}
+.smart_toon {
+    border: 1px solid #df4e28;
+    background-color: #ec5336;
+}
+
 
 /*footer*/
 footer {
